@@ -24,6 +24,9 @@ in `domains.txt` file (one domain per line)
 ## Start
 
 ```bash
+
+apt install git
+git clone https://github.com/tonyGraetscher/free-domain-checker.git
 npm install
 npm run start
 ```
