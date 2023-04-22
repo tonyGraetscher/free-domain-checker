@@ -2,7 +2,7 @@
 
 Free Domain Checker is a simple tool to check if a domain is available or not.
 
-## confoguration
+## configuration
 
 in `config.json` file
 
@@ -24,6 +24,7 @@ in `domains.txt` file (one domain per line)
 ## Start
 
 ```bash
+apt install nodejs
 npm install
 npm run start
 ```
