@@ -24,6 +24,7 @@ in `domains.txt` file (one domain per line)
 ## Start
 
 ```bash
+apt install npm
 npm install
 npm run start
 ```
