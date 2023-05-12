@@ -8,12 +8,13 @@ in `config.json` file
 
 ```json
 {
-    "host": "your.mail.server",
-    "port": 25,
-    "user": "your@mail.com",
-    "pass": "password", 
-    "from": "\"Free Domain Checker\" <your@mail.com>",
-    "to": "your@mail.com"
+	"send": true,
+	"host": "your.mail.server",
+	"port": 25,
+	"user": "your@mail.com",
+	"pass": "password",
+	"from": "\"Free Domain Checker\" <your@mail.com>",
+	"to": "your@mail.com"
 }
 ```
 
