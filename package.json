@@ -1,28 +1,30 @@
 {
-  "name": "free-domain-checker",
-  "version": "0.1.0",
-  "description": "Free Domain Checker",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tonyGraetscher/free-domain-checker.git"
-  },
-  "keywords": [
-    "Free",
-    "Domain",
-    "Checker"
-  ],
-  "author": "tony.graetscher",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/tonyGraetscher/free-domain-checker/issues"
-  },
-  "homepage": "https://github.com/tonyGraetscher/free-domain-checker#readme",
-  "dependencies": {
-    "nodemailer": "^6.9.1",
-    "whois": "^2.14.0"
-  }
+	"name": "free-domain-checker",
+	"version": "0.1.0",
+	"description": "Free Domain Checker",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tonyGraetscher/free-domain-checker.git"
+	},
+	"keywords": [
+		"Free",
+		"Domain",
+		"Checker"
+	],
+	"author": "tony.graetscher",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/tonyGraetscher/free-domain-checker/issues"
+	},
+	"homepage": "https://github.com/tonyGraetscher/free-domain-checker#readme",
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"nodemailer": "^6.9.1",
+		"whois": "^2.14.0"
+	}
 }
